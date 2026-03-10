@@ -1,4 +1,4 @@
-# 🗲 PANDORA - Deep Trace Global Tracker 🗲
+# 🗲 PANDORA - Global Tracker 🗲
 
 ![Pandora Header](https://img.shields.io/badge/Version-3.0-magenta?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Active-green?style=for-the-badge)
