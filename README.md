@@ -17,3 +17,35 @@
           ::: Aplication Development by ✘ Aki_SystemDown® ©2026 :::
                              ::: People ✘ Tracker :::
  
+## 📱 Installation in Termux (Android)
+
+Kopiere diese Befehle und füge sie nacheinander in dein Termux-Terminal ein, um **Pandora** zu installieren und zu starten:
+
+```bash
+# 1. System-Update & Pakete installieren
+pkg update && pkg upgrade -y
+pkg install git python -y
+
+# 2. Repository von GitHub klonen
+# (Ersetze DEIN_USER durch deinen echten GitHub-Namen)
+git clone [https://github.com/bosancero85/Padora-Dox.git](https://github.com/bosancero85/Padora-Dox.git)
+cd Padora-Dox
+
+# 3. Falls die Datei ein Leerzeichen hat, korrigieren:
+mv "PandoraDox. py" dox.py 2>/dev/null
+
+# 4. Abhängigkeiten installieren
+pip install colorama
+
+# 5. Pandora Engine starten
+python dox.py
+
+Tipp: Wenn du Pandora das nächste Mal startest, musst du nur noch cd Padora-Dox und python dox.py eingeben.
+​🛠 Schnellstart-Shortcut (Optional)
+​Möchtest du Pandora mit nur einem Wort starten? Gib dies einmalig in Termux ein:
+
+echo "alias pandora='python ~/Padora-Dox/dox.py'" >> ~/.bashrc && source ~/.bashrc
+
+​⚠️ Disclaimer
+​Dieses Tool wurde zu Bildungszwecken im Bereich OSINT entwickelt. Der Entwickler übernimmt keine Verantwortung für die missbräuchliche Verwendung oder den Einsatz gegen Dritte ohne deren Zustimmung.
+​Development by ✘ Aki_SystemDown®
