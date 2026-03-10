@@ -28,8 +28,8 @@ pkg install git python -y
 
 # 2. Repository von GitHub klonen
 # (Ersetze DEIN_USER durch deinen echten GitHub-Namen)
-git clone [https://github.com/bosancero85/Padora-Dox.git](https://github.com/bosancero85/Padora-Dox.git)
-cd Padora-Dox
+git clone [https://github.com/bosancero85/Pandora-Dox.git](https://github.com/bosancero85/Pandora-Dox.git)
+cd Pandora-Dox
 
 # 3. Falls die Datei ein Leerzeichen hat, korrigieren:
 mv "PandoraDox. py" dox.py 2>/dev/null
@@ -40,11 +40,11 @@ pip install colorama
 # 5. Pandora Engine starten
 python dox.py
 
-Tipp: Wenn du Pandora das nächste Mal startest, musst du nur noch cd Padora-Dox und python dox.py eingeben.
+Tipp: Wenn du Pandora das nächste Mal startest, musst du nur noch cd Pandora-Dox und python dox.py eingeben.
 ​🛠 Schnellstart-Shortcut (Optional)
 ​Möchtest du Pandora mit nur einem Wort starten? Gib dies einmalig in Termux ein:
 
-echo "alias pandora='python ~/Padora-Dox/dox.py'" >> ~/.bashrc && source ~/.bashrc
+echo "alias pandora='python ~/Pandora-Dox/dox.py'" >> ~/.bashrc && source ~/.bashrc
 
 ​⚠️ Disclaimer
 ​Dieses Tool wurde zu Bildungszwecken im Bereich OSINT entwickelt. Der Entwickler übernimmt keine Verantwortung für die missbräuchliche Verwendung oder den Einsatz gegen Dritte ohne deren Zustimmung.
